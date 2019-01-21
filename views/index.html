@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>すくれいぴんぐ</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/client.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        すくれいぴんぐするよ
+      </h1>
+    </header>
+
+    <main>
+      <form>
+        <input name="scraping" type="text" maxlength="100" value="https://tabelog.com/tokyo/A1304/A130401/13017369/" aria-labelledby="submit-scraping">
+        <button type="submit" id="submit-scraping">Submit scraping</button>
+      </form>
+      
+      <section class="scrapings">
+        <table id="scrapings"></table>
+      </section>
+    </main>
+
+    <footer>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </footer>
+
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
